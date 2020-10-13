@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="395dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Nombre y Apellidos"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textViewResultado"
+            android:layout_width="173dp"
+            android:layout_height="56dp"
+            android:gravity="center_vertical"
+            android:text="Resultado"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnBorrar"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:onClick="borrar"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/btnSumar"
+            android:layout_width="78dp"
+            android:layout_height="58dp"
+            android:onClick="operar"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/btnRestar"
+            android:layout_width="78dp"
+            android:layout_height="58dp"
+            android:onClick="operar"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/btnMultiplicar"
+            android:layout_width="78dp"
+            android:layout_height="58dp"
+            android:onClick="operar"
+            android:text="x" />
+
+        <Button
+            android:id="@+id/btnDividir"
+            android:layout_width="78dp"
+            android:layout_height="58dp"
+            android:onClick="operar"
+            android:text="/" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="112dp"
+            android:layout_height="74dp"
+            android:onClick="numeros"
+            android:text="1"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="112dp"
+            android:layout_height="74dp"
+            android:onClick="numeros"
+            android:text="2" />
+
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="112dp"
+            android:layout_height="74dp"
+            android:onClick="numeros"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="112dp"
+            android:layout_height="74dp"
+            android:onClick="numeros"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="112dp"
+            android:layout_height="74dp"
+            android:onClick="numeros"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="112dp"
+            android:layout_height="74dp"
+            android:onClick="numeros"
+            android:text="6" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="112dp"
+            android:layout_height="74dp"
+            android:onClick="numeros"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="112dp"
+            android:layout_height="74dp"
+            android:onClick="numeros"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="112dp"
+            android:layout_height="74dp"
+            android:onClick="numeros"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="112dp"
+            android:layout_height="74dp"
+            android:onClick="numeros"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/btnDecimal"
+            android:layout_width="112dp"
+            android:layout_height="74dp"
+            android:onClick="numeros"
+            android:text="." />
+
+        <Button
+            android:id="@+id/btnIgual"
+            android:layout_width="112dp"
+            android:layout_height="74dp"
+            android:onClick="igual"
+            android:text="=" />
+    </LinearLayout>
+
+
+</LinearLayout>
